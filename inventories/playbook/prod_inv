@@ -1,0 +1,9 @@
+[servers]
+pro_1 ansible_host=13.232.175.33
+pro_2 ansible_host=3.108.41.19
+
+[servers:vars]
+ansible_python_interpreter=/usr/bin/python3
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/home/ubuntu/.ssh/Ansible-all-access-key.pem
+
